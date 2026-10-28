@@ -1,5 +1,4 @@
 import katex from "katex";
-import "katex/contrib/mhchem";
 import type { MathFormulaKind } from "./math-formula";
 
 export const hasMathPlaceholders = (latex: string) => /\\placeholder\b/.test(latex);

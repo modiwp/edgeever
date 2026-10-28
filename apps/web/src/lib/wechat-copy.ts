@@ -10,7 +10,6 @@ import {
   type NoteProsePaletteColors,
 } from "@edgeever/shared";
 import katex from "katex";
-import "katex/contrib/mhchem";
 import { common, createLowlight } from "lowlight";
 import { toCanvas } from "html-to-image";
 import { marked } from "marked";
